@@ -25,8 +25,8 @@ I'm currently exploring all aspects of the field of programming, from algorithms
 
 - 👨🏻‍🎓 Software Engineer student
 - 🕑 18 yo
-- 📚 Currently learning everything that I can
-<br>
+- 💭 I'm interested in WEB development and AI
+- 📚 Currently learning Python, C#, C++ and Java
 
 
 <h3 align="left">Languages and Tools:</h3>
