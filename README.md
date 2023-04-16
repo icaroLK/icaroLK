@@ -50,7 +50,7 @@ I'm currently exploring all aspects of the field of programming, from algorithms
 
 <img align="left" alt="Coding" width="150" src="https://backstage.io/animations/backstage-techdocs-icon-1.gif">
 
->  <br>If you think something could be better, fell free to clone/fork the projects, and if you run into any problems, let me know by raising some issues or submitting PRs!!!
+>  <br>If you think something could be better, fell free to clone/fork the projects, and if you run into any problems, let me know by raising some issues or submitting PRs!!! Ask me anything <a href="https://github.com/icaroLK/icaroLK/issues/new"><b>here</b></a><br>
   
   
 <br>
