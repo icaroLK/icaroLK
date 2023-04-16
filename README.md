@@ -60,5 +60,5 @@ I'm currently exploring all aspects of the field of programming, from algorithms
 
 <hr />
 <img align="left" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=2000&color=2E81EC&width=530&lines=%2F%2FEnjoy+the+show!;%2F%2FFell+free+to+come+back+always!;%2F%2FDon't+miss+out+on+my+updates!+Follow+me 😀" alt="Typing SVG" /></a>
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=icarolk&label=Visualizations&color=007dae&style=flat" alt="icarolk" /> </p>
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=icarolk&label=Profile_views&color=007dae&style=flat" alt="icarolk" /> </p>
 
