@@ -18,7 +18,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://uploads-ssl.webflow.com/61a8ba1505a38d795044d7de/61aae1b7a4ba59ee6d39af82_scroll-coding.gif">
 
-Hi there! I'm a brazillian software engieneer student at PUCPR <br>
+Hi there! I'm a brazillian software engieneer student at <a href="https://www.pucpr.br"><b>PUCPR</b></a>
 I'm currently exploring all aspects of the field of programming, from algorithms and data structures to web development. Let's connect and share our experiences!!! <br>
 
 <h3 align="left">Stuff about me:</h3>
