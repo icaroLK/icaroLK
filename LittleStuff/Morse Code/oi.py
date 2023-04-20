@@ -1,13 +1,15 @@
 from playsound import playsound
 from time import sleep
 
+
 def titulo(msg):
     print('\033[1;37m—\033[m'*50)
     print('\033[37m{:^50}\033[m'.format(msg))
     print('\033[1;37m—\033[m'*50)
 
-alfbt = [{'A': '•-'}, 
-         {'B': '-•••'}, 
+
+alfbt = [{'A': '•-'},
+         {'B': '-•••'},
          {'C': '-•-•'},
          {'D': '-••'},
          {'E': '•'},
@@ -55,12 +57,9 @@ alfbt = [{'A': '•-'},
          ]
 
 
-
-
-
 titulo('MORSE CODE')
 
-#verificador de digitação certa
+# verificador de digitação certa
 while True:
     resp = input('\n1 - Phrase to morse + beep\n2 - Morse to phrase\nR: ')
     try:
@@ -85,10 +84,8 @@ if resp == 1:
         else:
             print('Digite novamente')
 
-
     frase = input('\nInsira uma frase: ').strip().upper()
     len(frase)
-
 
     for c, l in enumerate(frase):
         if l == ' ':
@@ -98,7 +95,7 @@ if resp == 1:
             while True:
                 c
                 key = list(alfbt[count].keys())[0]
-                #print(key)
+                # print(key)
                 if l == key:
                     valor = list(alfbt[count].values())[0]
        #             sleep(0.3)
@@ -107,19 +104,22 @@ if resp == 1:
                     if som == 'S':
                         sleep(0.3)
                         for q in valor:
-                            if q == '•': 
+                            if q == '•':
 
-                                playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/peep.wav")
+                                playsound(
+                                    "C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/peep.wav")
 
                             elif q == '-':
-                                playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/pipao.wav")
+                                playsound(
+                                    "C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/pipao.wav")
                     break
                 count += 1
 
 if resp == 2:
     sent = input('\nInsira uma frase em código morse: ').strip()
     frase = sent.replace('.', '•').split()
-    print('Frase em código morse: \033[33m{}\033[m\nFrase traduzida: \033[34m'.format(sent), end='')
+    print('Frase em código morse: \033[33m{}\033[m\nFrase traduzida: \033[34m'.format(
+        sent), end='')
 #    print(frase) vendo se ta certo só
     for c in frase:
         if c == '/':

@@ -51,7 +51,7 @@ print('\033[1m—\033[m'*(16+qtd))
 
 for i, v in enumerate(prontas):
     print(f'   {i+1}° senha: ', end='')
-    print('\033[1;34m', end='')
+    print('\033[34m', end='')
     prettylist(v)
     print('\033[m', end='')
     print()
