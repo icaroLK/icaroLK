@@ -52,10 +52,10 @@ for c, l in enumerate(frase):
                 for q in valor:
                     if q == '•': 
 
-                        playsound("C:/TimeTravelStuff/icaroLK/Little Stuff/Morse Code/peep.wav")
+                        playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/peep.wav")
 
                     elif q == '-':
-                        playsound("C:/TimeTravelStuff/icaroLK/Little Stuff/Morse Code/pipao.wav")
+                        playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/pipao.wav")
                       
                 break
             count += 1
