@@ -32,6 +32,26 @@ alfbt = [{'A': '•-'},
          {'X': '-••-'},
          {'Y': '-•--'},
          {'Z': '--••'},
+         {',': '--••--'},
+         {'.': '•-•-•-'},
+         {'1': '•----'},
+         {'2': '••---'},
+         {'3': '•••--'},
+         {'4': '••••-'},
+         {'5': '•••••'},
+         {'6': '-••••'},
+         {'7': '--•••'},
+         {'8': '---••'},
+         {'9': '----•'},
+         {'0': '-----'},
+         {'?': '••--••'},
+         {'!': '-•-•--'},
+         {';': '-•-•-•'},
+         {'+': '•-•-•'},
+         {'-': '-••••-'},
+         {':': '---•••'},
+         {'/': '-••-•'},
+         {'=': '-•••-'}
          ]
 
 
@@ -53,6 +73,19 @@ while True:
         print('\n\033[31mERROR\033[m\nPlease. Insert a number')
 
 if resp == 1:
+
+    while True:
+        som = input('Deseja ouvir os beeps? [S/N]: ').strip().title()[0]
+        if som == 'S':
+            pass
+            break
+        elif som == 'N':
+            pass
+            break
+        else:
+            print('Digite novamente')
+
+
     frase = input('\nInsira uma frase: ').strip().upper()
     len(frase)
 
@@ -68,36 +101,36 @@ if resp == 1:
                 #print(key)
                 if l == key:
                     valor = list(alfbt[count].values())[0]
-                    sleep(0.3)
+       #             sleep(0.3)
                     print(valor, end=' ')
 
+                    if som == 'S':
+                        sleep(0.3)
+                        for q in valor:
+                            if q == '•': 
 
-                    for q in valor:
-                        if q == '•': 
+                                playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/peep.wav")
 
-                            playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/peep.wav")
-
-                        elif q == '-':
-                            playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/pipao.wav")
+                            elif q == '-':
+                                playsound("C:/TimeTravelStuff/icaroLK/LittleStuff/Morse Code/pipao.wav")
                     break
                 count += 1
 
 if resp == 2:
-    frase = input('\nInsira uma frase em código morse: ').strip().replace('/', ' ').split()
-    print(frase)
+    sent = input('\nInsira uma frase em código morse: ').strip()
+    frase = sent.replace('.', '•').split()
+    print('Frase em código morse: \033[33m{}\033[m\nFrase traduzida: \033[34m'.format(sent), end='')
+#    print(frase) vendo se ta certo só
     for c in frase:
-        if c == ' ':
-            print(' espaço ')
+        if c == '/':
+            print(' ', end='')
         else:
             count = 0
             while True:
                 valor = list(alfbt[count].values())[0]
                 if c == valor:
-                    key = list(alfbt[count].keys())[0]
+                    key = (list(alfbt[count].keys())[0]).lower()
                     print(key, end='')
                     break
                 count += 1
-        print(' ', end='')
-        #print(c)
-
-    #print(frase)
+    print('\033[m')
