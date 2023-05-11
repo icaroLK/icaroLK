@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'rides';
+    src: url(font/SF_Cartoonist_Hand.ttf);
+}
+
+
+body{
+    font-size: 3em;
+    font-family: 'rides';
+}
+
+.f{
+    font-family: 'rides';
+}
+
+
+.R{
+    font-family: 'rides';
+}
