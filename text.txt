@@ -1,0 +1,1 @@
+<input type="number" name="num" id="inum" minlength="0" maxlength="100" step="5">
