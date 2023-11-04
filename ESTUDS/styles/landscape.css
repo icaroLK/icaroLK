@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+body {
+background: black url(../images/paisagem.jpg) no-repeat center center /cover fixed; 
+}

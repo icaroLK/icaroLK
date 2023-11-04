@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+body {
+background: black url(../images/retrato.jpg) no-repeat center top /cover fixed;
+}

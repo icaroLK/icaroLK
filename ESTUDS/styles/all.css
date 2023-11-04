@@ -1,0 +1,14 @@
+@charset "UFT-8";
+
+/*-------------- STYLE ALL --------------*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}

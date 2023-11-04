@@ -1,0 +1,482 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'font-padrao';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'mono';
+    src: url(../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+
+
+:root{
+    --branquin: #FBFBFF;
+    --zulscuro: #274156;
+    --zulclaro: #6494AA;
+    --fundo: #171717;
+}
+
+
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px dashed red; */
+    font-family: 'font-padrao', Helvetica, sans-serif;;
+    
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--branquin);
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    
+
+
+
+
+
+
+
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 100px; */
+    padding: 20px 40px;
+
+
+    /* background-color: rgba(128, 0, 128, 0.479); */
+}
+
+
+.logo {
+    height: 60px;
+    width: 60px;
+    /* background-color: chocolate; */
+    background-image: url(../images/icons/Screenshot_1-removebg-preview.png);
+    background-size: cover;
+}
+
+menu {
+    height: 50px;
+  
+
+}
+
+menu > .burguer{
+   text-align: center;
+   
+   width: 60px;
+   /* background-color: chocolate; */
+
+   &:hover{
+    cursor: pointer;
+   }
+   &:active{
+    font-size: 44px;
+    margin-top: 2px;
+   }
+}
+
+
+
+.material-icons.md-48 { font-size: 48px; }
+
+
+.navpc {
+    visibility: hidden;
+}
+
+
+nav.navcell {
+    /* display: none; */
+    /* display: flex; */
+    opacity: 0;
+    visibility: hidden;
+    background-image: linear-gradient(30deg, #274156, #171717c5 );
+    /* background-color: #274156; */
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    backdrop-filter: blur(6px);
+
+    height: calc(100vh - 120px);
+    transition: all 0.2s ease-in 0.2s;
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh - 0px);;
+    transform: translateY(-120px);
+    /* pointer-events: none; */
+
+}
+
+nav.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+nav.navcell > p.close {
+    position: absolute;
+    text-align: right;
+    width: 100vw;
+}
+
+nav.navcell > p > .close {
+    padding: 35px 45px;
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        font-size: 44px;
+        margin-top: 2px;
+        margin-right: 2px;
+       }
+}
+
+
+
+
+nav.navcell > ul {
+    list-style-type: none;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+nav.navcell > ul > li {
+
+    opacity: 0;
+    visibility: hidden;
+
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s ease 0s;
+}
+
+
+
+nav.navcell > ul > li.texto {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+nav.navcell > ul > li > .language {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/icons/brasil.png);
+    background-size: cover;
+
+
+}
+
+
+nav.navcell > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.7 ease-in 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+main > h1{
+margin-top: 100px;
+font-size: 2.8em;
+margin: 100px 40px 0px 40px;
+
+
+}
+
+
+
+
+main article.infos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 170px;
+    /* background-color: rgba(127, 255, 212, 0.452); */
+    justify-content: space-between;
+}
+
+
+main > article > p {
+    color: rgba(153, 153, 153, 0.473);
+    font-weight: bold;
+    font-family: 'mono';
+    font-size: 1.1em;
+    &:hover{
+        cursor: default;
+    }
+}
+
+main article div.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140px;
+}
+
+main article div button.download {
+    padding: 16px 0px;
+    background-color: var(--zulclaro);
+    border: 0px;
+    color: var(--branquin);
+    font-weight: bold;
+    transition: transform 0.1s ease 0s;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-3px);
+        box-shadow: 0px 8px 5px -5px rgba(100,148,170,0.32);
+    }
+    
+    
+}
+
+.linkedin-icon {
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/Linkedin-icon.png);
+    background-size: contain;
+}
+
+
+main > article > div > a {
+    color: var(--branquin);
+    text-decoration: none;
+    padding: 15px 0px;
+    background-color: transparent;
+    border: 1px solid var(--branquin);
+    box-sizing: border-box;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-3px);
+        box-shadow: 0px 8px 5px -5px rgba(251,251,255,0.32);
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+    
+
+
+menu > .burguer, nav > .close, .navcell {
+    visibility: hidden;
+    display: none;
+}
+
+
+.navpc {
+    visibility: visible;
+}
+
+
+
+
+
+
+body {
+    /* height: 1500px; */
+}
+
+
+
+
+
+
+header {
+    /* background-color: rgba(127, 255, 212, 0.288); */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo {
+    height: 100px;
+    width: 100px;
+    /* background-color: chocolate; */
+    background-image: url(../images/icons/Screenshot_1-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+.navpc {
+    position: absolute;
+    right: 0;
+    /* background-color: rgba(56, 56, 56, 0.514); */
+}
+
+
+.navpc > ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+.navpc > ul > li {
+    padding: 10px 30px;
+}
+
+.navpc > ul > li > a {
+    color: var(--branquin);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.7 ease-in 0s;
+
+}
+
+.navpc > ul > li > .language {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/icons/brasil.png);
+    background-size: cover;
+
+
+}
+
+
+
+main {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main > h1 {
+    padding: 160px 830px 0px 0px;
+    font-size: 4em;
+    width: 800px;
+}
+
+
+a.digitando, img.digitando {
+    pointer-events: none;
+    cursor: default;
+    margin-right: 815px;
+    &:hover{
+        cursor: default;
+    }
+}
+
+main a.digitando {
+
+}
+
+
+.pers{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 200px;
+    margin-bottom: 260px;
+    
+    /* margin-top: 200px; */
+    background-image: url(../images/fodase.png);
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+}
