@@ -411,7 +411,7 @@ body {
 
 header {
     /* background-color: rgba(127, 255, 212, 0.288); */
-    height: 80px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -424,13 +424,13 @@ header {
 
 
 .logo {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     /* background-color: chocolate; */
     background-image: url(../images/icons/Screenshot_1-removebg-preview.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 70px;
+    margin-left: 140px;
     margin-top: 10px;
     
 }
@@ -461,7 +461,7 @@ header {
     color: var(--branquin);
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-family: 'Courier New', Courier, monospace;
     transition: all 0.7 ease-in 0s;
     &:hover{
@@ -471,8 +471,8 @@ header {
 }
 
 .navpc > ul > li > .language {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-image: url(../images/icons/brasil.png);
     background-size: cover;
 
@@ -563,7 +563,6 @@ div.aboutme {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     box-sizing: border-box;
     padding: 0px 40px 0px 40px;
     
@@ -576,65 +575,17 @@ div.aboutme > .texto > h1 {
     font-size: 2.8em;
 }
 
-.myself {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    font-size: 1.5em;
-    box-sizing: border-box;
-    padding: 25px 0px;
-    padding-left: 20px;
-}
-
-.myself > ul {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.8em;
-    list-style-type: none;
-    color: var(--branquin);
-}
-
-.myself > ul > li {
-    margin: 15px 0px;
-}
-
-
-.myself > ul > li > strong {
-    color: var(--zulclaro);
-}
-
-.myself > .resume > h2 {
+div.aboutme > .texto > p {
+    
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }
 
 
-.myself > .resume > .download {
-margin-top: 30px;
-background-color: #274156;
-width: 300px;
-height: 60px;
-color: var(--branquin);
-font-weight: 500;
-border: 0px;
-font-size: 0.8em;
-transition: all 0.1s linear 0s;
-box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.73);
-    &:hover{
-        background-color: transparent;
-        border: 2px solid var(--zulclaro);
-        cursor: pointer;
-        transform: translateY(-5px);
-        box-shadow: 0px 7px 12px 4px rgba(0,0,0,0.57);
-    }
-}
 
-.resume > button > img {
-    width: 25px;
-    transform: translate(16px, 3px);
-}
+
+
 
 
 
@@ -691,8 +642,7 @@ div.redes {
 
 
 
-div.redes > h2 {
-    font-size: 1.8em;
+div.redes > h1 {
     text-align: center;
     padding: 30px 0px;
     
@@ -783,8 +733,6 @@ div.redes >.aboutlinks >  ul > li > a > img {
 
 
 .whatido {
-    box-sizing: border-box;
-    padding-top: 55px;
     margin-top: 200px;
     width: 100%;
     
@@ -986,7 +934,7 @@ div.skill {
 
 .contact {
     box-sizing: border-box;
-    padding-top: 30px;
+    padding-top: 100px;
     width: 100%;
     
     
@@ -994,7 +942,6 @@ div.skill {
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 50px;
 }
 
 .contact > h1{
@@ -1085,14 +1032,14 @@ div.skill {
 
 
 .info_container {
-    margin-top: 60px;
+    margin-top: 50px;
     width: 100%;
     height: 100px;
     /* background-color: rgba(127, 255, 212, 0.308); */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
 }
 
