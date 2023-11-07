@@ -114,8 +114,11 @@ body {
     justify-content: center;
     align-items: center;
     color: var(--zulclaro);
-    box-shadow: 2px 4px 15px 0px #000;
+    box-shadow: 0px 3px 8px 0px #00000045;
     text-decoration: none;
+    &:active{
+        border: 1px solid var(--zulclaro);
+    }
 } 
 
 
@@ -129,9 +132,6 @@ body {
     &:hover{
         transform: translateY(10px);
         color: var(--zulclaro);
-    }
-    &:active{
-        border: 1px solid var(--zulclaro);
     }
 }
 
@@ -559,17 +559,12 @@ div.redes >.aboutlinks >  ul > li > a > img {
     box-sizing: border-box;
     padding: 40px 20px;
     box-shadow: 4px 4px 12px -2px rgba(0 0 0 / 34%);
-
-    /* 4px 4px 6px 0px rgb(0 0 0 / 24%) */
-    /* 4px 4px 10px 0px rgb(0 0 0 / 24%) */
-
     margin: 28px 28px;
     transition: all 100ms linear 0s;
     &:hover{
         scale: 1.03;
         rotate: 0.8deg;
         cursor: default;
-        /* box-shadow: 6px 6px 10px 0px rgb(0 0 0 / 24%); */
     }
 }
 
