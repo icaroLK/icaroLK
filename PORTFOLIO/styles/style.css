@@ -31,18 +31,31 @@
     --cinzin: rgb(33, 33, 33);
 
     --shadow-header: 0px -16px 11px 20px rgba(23,23,23,0.59);
+
+
+
+
+    --icon-light-night: url(../images/icons/sun.png);
+    --icon-logo: url(../images/icons/logo-white.png);
+    
 }
 
 
-.modo-noturno {
+.dark_light {
     --branquin: #171717;
     --fundo: #FBFBFF;
-
-    --zulscuro: #6494AA;
-    --zulclaro: #274156;
+    
+    --zulscuro: #9ac8dd;
+    --zulclaro: #3581be;
     --scuru: white;
     --cinzin: #f8f8f8;
+    
+    --icon-light-night: url(../images/icons/night-mode.png);
+    --icon-logo: url(../images/icons/logo-black.png);
 
+
+
+    --shadow-header: 0px -3px 8px 3px #232323;
 }
 
 
@@ -143,18 +156,38 @@ header {
     width: 100%;
     background-color: var(--fundo);
     z-index: 999;
-    box-shadow: var(--shadow-header);
+    box-shadow: 0px 2px 6px 0px rgb(23 23 23 / 32%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .logo {
     height: 70px;
     width: 70px;
-    background-image: url(../images/icons/Screenshot_1-removebg-preview.png);
+    background-image: var(--icon-logo);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 70px;
     margin-top: 10px;
+    transition: all 0.3s linear 0s;
 }
 
 
@@ -173,6 +206,8 @@ header {
 
 .navpc > ul > li {
     padding: 10px 30px;
+    width: fit-content;
+    
 }
 
 
@@ -188,6 +223,18 @@ header {
     }
 }
 
+.icon_dark-light { 
+    /* background-color: red; */
+    width: 12px;
+    height: 12px;
+    background-image: var(--icon-light-night);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    transition: all 0.3s linear 0s;
+    cursor: pointer;
+    user-select: none;
+}
 
 .navpc > ul > li > .language {
     width: 50px;
@@ -202,12 +249,12 @@ header {
     
 }
 
-.navpc > ul > li > img {
+/* .navpc > ul > li > img {
     width: 50px;
     height: 50px;
     cursor: pointer;
     user-select: none;
-}
+} */
 
 
 .home {
@@ -446,11 +493,11 @@ div.redes >.aboutlinks >  ul > li > a {
     padding: 0px 10px;
     font-weight: bold;
     background-color: var(--scuru);
-    box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.73);
+    box-shadow: 0px 2px 3px 1px rgb(0 0 0 / 39%);
     transition: all 0.1s linear 0s;
     &:hover{
         transform: translateY(-5px);
-        box-shadow: 0px 7px 12px 4px rgba(0,0,0,0.57);
+        box-shadow: 0px 4px 5px 2px rgba(0 0 0 / 40%);
     }
 }    
 
@@ -511,13 +558,18 @@ div.redes >.aboutlinks >  ul > li > a > img {
     align-items: start;
     box-sizing: border-box;
     padding: 40px 20px;
-    box-shadow: 0px 7px 12px -2px rgba(0,0,0,0.57);
+    box-shadow: 4px 4px 12px -2px rgba(0 0 0 / 34%);
+
+    /* 4px 4px 6px 0px rgb(0 0 0 / 24%) */
+    /* 4px 4px 10px 0px rgb(0 0 0 / 24%) */
+
     margin: 28px 28px;
     transition: all 100ms linear 0s;
     &:hover{
         scale: 1.03;
         rotate: 0.8deg;
         cursor: default;
+        /* box-shadow: 6px 6px 10px 0px rgb(0 0 0 / 24%); */
     }
 }
 

@@ -14,6 +14,6 @@ function openMenu(){
 }
 
 
-function noturno(){
-    document.body.classList.toggle("modo-noturno");
+function dark_light(){
+    document.body.classList.toggle("dark_light");
 }
