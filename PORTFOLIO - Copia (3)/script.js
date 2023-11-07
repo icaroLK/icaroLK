@@ -13,7 +13,3 @@ function openMenu(){
     
 }
 
-
-function noturno(){
-    document.body.classList.toggle("modo-noturno");
-}
