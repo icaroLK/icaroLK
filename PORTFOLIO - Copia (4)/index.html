@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ícaro Lima</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" href="styles/all.css" media="all">
-
-    <link rel="stylesheet" href="styles/style.css" media="screen and (min-width: 768px)">
-
-    <link rel="stylesheet" href="styles/cell.css" media="screen and (min-width: 10px) and (max-width: 768px)">
-
-
-
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -39,23 +32,19 @@
 
         </div>
         <menu>
-            <!-- <span class="burguer material-icons md-48" onclick="openMenu()">menu</span> -->
-            <div class="burguer" onclick="openMenu()">
-
-            </div>
+            <span class="burguer material-icons md-48" onclick="openMenu()">menu</span>
+            <!-- <span class="burguer"></span> -->
 
         </menu>
 
     </header>
     
         <nav class="navcell">
-            <div class="close" onclick="openMenu()">
-
-            </div>
+            <p class="close"><span class="close material-icons md-48" onclick="openMenu()">close</span></p>
             <ul>
-                <li><a href="#about">About me</a>
-                <li><a href="#whatido">Projects</a>
-                <li><a href="#contact">Contact</a>
+                <li><a href="#">About me</a>
+                <li><a href="#">Projects</a>
+                <li><a href="#">Contact</a>
                 <li><div class="language" id="optmen"></div>
             </ul>
         
@@ -68,7 +57,7 @@
             <div class="apresentacao">
 
                 <h1>Hi, I am<br>Ícaro <span class="ficarazul">K</span><span class="ficarazul">u</span><span class="ficarazul">c</span><span class="ficarazul">h</span><span class="ficarazul">a</span><span class="ficarazul">n</span><span class="ficarazul">o</span><span class="ficarazul">v</span><span class="ficarazul">i</span><span class="ficarazul">c</span><span class="ficarazul">z</span></h1>
-                <a href="https://git.io/typing-svg" class="digitando" target="_blank"><img src="https://readme-typing-svg.demolab.com/?font=Source+Code+Pro&weight=700&size=28&pause=1000&color=6494AA&vCenter=true&random=false&width=600&height=100&lines=%2F%2F+FullStack+Developer;%2F%2F+Problem+solver;%2F%2F+Software+Developer" alt="Typing SVG" /></a>
+                <a href="https://git.io/typing-svg" class="digitando" target="_blank"><img src="https://readme-typing-svg.demolab.com/?font=Source+Code+Pro&weight=700&size=28&pause=1000&color=6494AA&vCenter=true&random=false&width=600&height=100&lines=%2F%2F+Full+Stack+Developer;%2F%2F+Problem+solver;%2F%2F+Software+Developer" alt="Typing SVG" class="digitando" /></a>
             </div>
 
 
@@ -77,9 +66,11 @@
             </div>
 
             <article class="infos">
-                    <button class="download_cell">Download CV</button>
-                    
-                    <a href="#">Linkedin</a>
+                <p>Fullstack Developer</p>
+                <div class="links">
+                    <button class="download">Download CV</button>
+                    <a href="#"><p></p>Linkedin</a>
+                </div>
             </article>
         </div>
 
@@ -106,15 +97,15 @@
             </div>
 
             <div class="redes">
-                <h2>Find me on</h2>
+                <h2>Find me on Social Media</h2>
 
                 <div class="aboutlinks">
                     <aside class="barra"></aside>
                     <ul>
-                        <li><a href="#"><img src="images/icons/linkedin.png" alt="Linkedin-icon"><span class="text_icon_links">Linkedin</span></a></li>
-                        <li><a href="#"><img src="images/icons/instagram.png" alt="instagram-icon"><span class="text_icon_links">Instagram</span></a></li>
-                        <li><a href="#"><img src="images/icons/github.png" alt="github-icon"><span class="text_icon_links">Github</span></a></li>
-                        <li><a href="#"><img src="images/icons/whatsapp.png" alt="whatsapp-icon"><span class="text_icon_links">Whatsapp</span></a></li>
+                        <li><a href="#"><img src="images/icons/linkedin.png" alt="Linkedin-icon">Linkedin</a></li>
+                        <li><a href="#"><img src="images/icons/instagram.png" alt="instagram-icon">Instagram</a></li>
+                        <li><a href="#"><img src="images/icons/github.png" alt="github-icon">Github</a></li>
+                        <li><a href="#"><img src="images/icons/whatsapp.png" alt="whatsapp-icon">Whatsapp</a></li>
                     </ul>
                 </div>
             </div>
@@ -167,7 +158,7 @@
                         <li><abbr title="Python"><img src="images/icons/python.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d1"></div></div>80%</li>
                         <li><abbr title="PHP"><img src="images/icons/php.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d2"></div></div>90%</li>
                         <li><abbr title="C"><img src="images/icons/C.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d3"></div></div>75%</li>
-                        <li><abbr title="Java"><img src="images/icons/java.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d4"></div></div>40%</li>
+                        <li><img src="images/icons/java.png" alt=""><div class="cemporcento"><div class="desempenho d4"></div></div>40%</li>
                         <li><abbr title="MySQL"><img src="images/icons/mysql.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d5"></div></div>85%</li>
                         <li><abbr title="JavaScript"><img src="images/icons/js.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d6"></div></div>70%</li>
                         <li><abbr title="CSS"><img src="images/icons/css-3.png" alt=""></abbr><div class="cemporcento"><div class="desempenho d7"></div></div>95%</li>

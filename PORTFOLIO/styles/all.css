@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+    - Pequenas telas: até 600px
+    - Celular: 600px até 768px
+    - Tablet: 768px até 992px
+    - Desktop: 992px até 1200px
+    - Grandes telas: acima de 1200px 
+    
+*/
+
+
+@font-face {
+    font-family: 'font-padrao';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'mono';
+    src: url(../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+
+
+:root{
+    --branquin: #FBFBFF;
+    --fundo: #171717;
+    --zulscuro: #274156;
+    --zulclaro: #6494AA;
+    --scuru: #111111;
+    --cinzin: rgb(33, 33, 33);
+
+    --shadow-header: 0px -16px 11px 20px rgba(23,23,23,0.59);
+
+
+
+
+    --icon-light-night: url(../images/icons/sun.png);
+    --icon-logo: url(../images/icons/logo-white.png);
+    
+}
+
+
+.dark_light {
+    --branquin: #171717;
+    --fundo: #FBFBFF;
+    
+    --zulscuro: #9ac8dd;
+    --zulclaro: #3581be;
+    --scuru: white;
+    --cinzin: #f8f8f8;
+    
+    --icon-light-night: url(../images/icons/night-mode.png);
+    --icon-logo: url(../images/icons/logo-black.png);
+
+
+
+    --shadow-header: 0px -3px 8px 3px #232323;
+}
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'font-padrao', Helvetica, sans-serif;
+    /* outline: 1px dashed red; */
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: var(--fundo);
+    color: var(--branquin);
+    scroll-behavior: smooth;
+    transition: color 1s ease 0s;
+}
