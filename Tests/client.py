@@ -2,7 +2,7 @@ import socket
 
 # Aqui precisamos estabelecer uma conexão com o servidor, então no host precisamos colocar o IP do server
 
-HOST = '192.168.0.10'
+HOST = '192.168.0.200'
 
 # Como eu estou usando o mesmo computador (mesma LAN), eu posso colocar o mesmo IP que está no meu computador, o mesmo IP privado do server. 
 # Agora se eu tivesse em um outro computador, o client precisa especificar o host do server 
@@ -27,5 +27,5 @@ socket.send("Hello World".encode('utf-8'))
 
 
 
-print(socket.recv(1024))
+print(socket.recv(1024).decode('utf-8'))
 

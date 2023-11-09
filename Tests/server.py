@@ -20,7 +20,7 @@ SEGUNDO PARÂMETRO ( socket.SOCK_STREAM )
 # Nesse caso a gente quer fazer com que o socket seja um server (hostear alguma coisa), então precisamos deixar isso claro -> Atribuindo um host e uma porta
 # Tem como pegar o IP automaticamente pra que o código funcione em diferentes computadores usando o código (não funciona se usar virtual boxes): 
 # HOST = socket.gethostbyname(socket.gethostbyname())
-HOST = '192.168.0.10'
+HOST = '192.168.0.200'
 '''Aqui o HOST vai ser o meu IP
 cmd -> ipconfig -> Adaptador Ethernet Ethernet -> IPv4
 '''
@@ -68,5 +68,5 @@ while True:
     communication_socket.close()
     '''Aqui o fechamento seria opcional, se voce quiser mandar mais mensagens, pode deixar aberto'''
 
-    print(f"Connection with {address} ended!")
+    print(f"Connection with {address} ended!".decode('utf-8'))
 
