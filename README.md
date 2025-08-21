@@ -1,68 +1,114 @@
 <div align="center">
-<h1>Welcome to Ícaro's profile <img src="https://em-content.zobj.net/source/noto-emoji-animations/344/waving-hand_light-skin-tone_1f44b-1f3fb_1f3fb.gif" width="30" 
-<p align="center">
-                       
-</h2>
-  
-  
-  
-
+  <h1>Welcome to Ícaro's Lab 👨‍💻</h1>
+  <p>
+    <em>Turning discipline, logic, and code into real-world impact.</em><br/>
+    <strong>Software Engineer · Systems Architect · Automation Builder</strong>
+  </p>
 </div>
 
+---
 
-
-
-<div align="left">
-<h2>HAVE A SEAT⠀<img src="https://em-content.zobj.net/source/microsoft-teams/337/clinking-glasses_1f942.png" width="30" </h2>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1500&center=true&vCenter=true&width=600&lines=🧠+Lifelong+learner+%26+builder;⚙️+Automation+%7C+n8n+%7C+Low-code+%7C+Python;📊+Financial+systems+%7C+AI-driven+insights;🛠️+Building+tools+for+real-life+problems;💡+Make+it+work.+Make+it+right.+Make+it+fast." alt="Typing SVG" />
 </div>
 
-<img align="right" alt="Coding" width="400" src="https://uploads-ssl.webflow.com/61a8ba1505a38d795044d7de/61aae1b7a4ba59ee6d39af82_scroll-coding.gif">
+---
 
-Hi there! I'm a brazillian software engieneer student at PUCPR
-I'm currently exploring all aspects of the field of programming, from algorithms and data structures to web development. Let's connect and share our experiences!!! <br>
+## 👋 About Me
 
-<h3 align="left">Stuff about me:</h3>
+I'm Ícaro, a Brazilian software engineering student at **PUCPR** with a deep passion for building **systems that solve real problems** — from government data pipelines to AI-integrated automation tools.
 
-- 👨🏻‍🎓 Software Engineer student
-- 🕑 18 yo
-- 💭 I'm interested in WEB development and AI
-- 📚 Currently learning Python, Java, HTML, CSS and JavaScript
+I learn by doing — **autodidact by necessity**, builder by mindset. My journey blends **coding**, **finance**, **AI**, and **biohacking**, all anchored by one principle: **build a life with logic, purpose, and ownership**.
 
+- 🔭 Currently working with: **Python**, **Docker**, **n8n**, **Playwright**, **Airtable**, **Open Finance APIs**, and **automation frameworks**
+- 🧩 Projects: government data scrapers, financial dashboards, tokenized commodities, self-hosted automations
+- 🧠 Learning: system design, CI/CD, data enrichment, AI agents, API integrations
+- ⚡ Side interests: longevity science, personal knowledge management, full-body optimization
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
-<hr />
+---
 
+## 💡 Core Skills
 
-<h3 align="left">Connect with me:</h3>
+- 🧱 **Automation & Data Workflows**
+  - `n8n`, `Python`, `Playwright`, `REST APIs`, `Airtable`, `Slack`, `Notion`, `Binance`, `Open Finance`
+  
+- 🔎 **Web Scraping & Data Engineering**
+  - `Playwright`, `BeautifulSoup`, `asyncio`, `Docker`, `data normalization`, `CI pipelines`, `pytest`
+
+- 📊 **Finance, Quant Tools & Dashboards**
+  - `Google Sheets API`, `yFinance`, `Compound interest logic`, `Notion dashboards`, `Rico`, `BTG`, `Binance`
+
+- 🧠 **Systems Thinking**
+  - Pragmatic architecture
+  - Build > Talk
+  - 80/20 thinking
+
+---
+
+## 🔨 Projects & Real-World Applications
+
+| Project | Description |
+|--------|-------------|
+| **Gov Opportunity Aggregator** | End-to-end system to scrape, enrich, score, and alert on government RFPs from [SAM.gov](https://sam.gov) and [Cal eProcure](https://caleprocure.ca.gov) — built with Python, Playwright, and n8n |
+| **Financial Tracker** | Automated Open Finance dashboard connecting multiple bank accounts and investments via API and updating Google Sheets with real-time data |
+| **Tokenized Commodities (FieldToken)** | Exploratory architecture for soy tokenization, storage logic, pricing model and custody mechanics |
+| **Self-hosted Infra** | Raspberry Pi-based local server for secure automation (n8n, file server, remote access via VPN with WireGuard) |
+
+> Full list of repositories is available below. Many projects are documented with full CI, Docker and Loom walkthroughs.
+
+---
+
+## ⚙️ Toolbox
+
 <p align="left">
-<a href="https://www.linkedin.com/in/%C3%ADcaro-kuchanovicz-333820272/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="username" height="30" width="40" /></a>
-<a href="https://twitter.com/icaro_lk" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="username" height="30" width="40" /></a>
-<a href="https://wa.me/5541988133200" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png" alt="username" width="40" /></a>
-<a href="https://t.me/Icaro_Kuchanovicz" target="blank"><img align="center" src="https://logodownload.org/wp-content/uploads/2017/11/telegram-logo-8.png" alt="username" width="30" /></a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" title="Docker"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" title="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" title="GitHub"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="VS Code"/>
 </p>
-  </div>
-<hr />
 
-  
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=icaroLK&show_icons=true&bg_color=00000000" alt="Ícaro's Github Stats">
+---
 
+## 📈 Stats & Activity
 
-<img align="left" alt="Coding" width="150" src="https://backstage.io/animations/backstage-techdocs-icon-1.gif">
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=icaroLK&show_icons=true&theme=transparent&hide=issues&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=icaroLK&layout=compact&hide_border=true&theme=transparent" width="48%" />
+</div>
 
->  <br>If you think something could be better, fell free to clone/fork the projects, and if you run into any problems, let me know by raising some issues or submitting PRs!!! Ask me anything <a href="https://github.com/icaroLK/icaroLK/issues/new"><b>here</b></a><br>
-  
-  
-<br>
-<br>
-<br>
+---
 
+## 📡 Let's connect
 
-<hr />
-<img align="left" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=2000&color=2E81EC&width=530&lines=%2F%2FEnjoy+the+show!;%2F%2FFell+free+to+come+back+always!;%2F%2FDon't+miss+out+on+my+updates!+Follow+me 😀" alt="Typing SVG" /></a>
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=icarolk&label=Profile_views&color=007dae&style=flat" alt="icarolk" /> </p>
+<p align="left">
+  <a href="https://www.linkedin.com/in/%C3%ADcaro-kuchanovicz-333820272/" target="blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
+  </a>
+  <a href="https://twitter.com/icaro_lk" target="blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="30" width="40" />
+  </a>
+  <a href="https://wa.me/5541988133200" target="blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" height="30" width="30" />
+  </a>
+  <a href="https://t.me/Icaro_Kuchanovicz" target="blank">
+    <img src="https://logodownload.org/wp-content/uploads/2017/11/telegram-logo-8.png" height="30" width="30" />
+  </a>
+</p>
 
+---
+
+## 🧠 Philosophy
+
+> “Most people exist. I want to build.”  
+> Discipline beats talent. Consistency is king.  
+> I don't chase perfection. I build systems that get me closer to it.
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=icarolk&label=Profile+Views&color=007dae&style=flat" alt="icarolk" />
+</p>
