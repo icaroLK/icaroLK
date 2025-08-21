@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1500&center=true&vCenter=true&width=600&lines=🧠+Lifelong+learner+%26+builder;⚙️+Automation+%7C+n8n+%7C+Low-code+%7C+Python;📊+Financial+systems+%7C+AI-driven+insights;🛠️+Building+tools+for+real-life+problems;💡+Make+it+work.+Make+it+right.+Make+it+fast." alt="Typing SVG" />
+   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1500&center=true&vCenter=true&width=600&lines=%F0%9F%A7%A0+Lifelong+learner+%26+builder;%E2%9A%99%EF%B8%8F+Automation+%7C+n8n+%7C+Low-code+%7C+Python;%F0%9F%93%8A+Financial+systems+%7C+AI-driven+insights;%F0%9F%9B%A0%EF%B8%8F+Building+tools+for+real-life+problems;%F0%9F%92%A1+Make+it+work.+Make+it+right.+Make+it+fast." alt="Typing SVG" />
 </div>
 
 ---
